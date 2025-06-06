@@ -1,0 +1,25 @@
+name: mfsev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - ipython
+  - matplotlib
+  - pandas
+  - numpy
+  - notebook
+  - conda-pack
+  - jupyter 
+  - geopandas<1.0.0
+  - pip
+  - cartopy
+  - contextily
+  - shapely
+  - scipy
+  - pip:
+      - git+https://github.com/pypest/pyemu.git@develop
+      - git+https://github.com/modflowpy/flopy.git@develop
+
+       
